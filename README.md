@@ -1,5 +1,4 @@
 Comprehensive Python Cheatsheet
-===============================
 
 <marquee><img src="static/python_logo.png" width=500></marquee>
 
