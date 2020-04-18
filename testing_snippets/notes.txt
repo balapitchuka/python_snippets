@@ -1,0 +1,17 @@
+1. typically ,it is not a unittest if it involves a filesystem, database, network.
+2. follow arrange(setup), act(call functionality), assert in writing a testcase for elegant design.
+
+what is unittesting for:
+1. understand what to build, unittest forces the developer to think how a unit is used.
+2. document the units 
+3. design the units (decompose code into testable units, loose coupling and hight cohesion)
+4. regression failure  or regression testing ( ensure previously developed and tested software still performs after a change)
+
+Limitations of unittesting:
+1. hard to write if units have many dependencies (high coupling)
+2. test scenarios may not occur in production.
+3. tests may not notice failure ( test are not able to cover scenarios that occur in production)
+4. unittests do not find integration or non functional(like security and performance) problems
+
+
+testfixture - code to construct and configure a unit under test to get it ready to be tested.
