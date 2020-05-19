@@ -1,0 +1,7 @@
+05/19/2020 07:10:40 PM - INFO - info message 
+05/19/2020 07:10:40 PM - WARNING - warning message 
+05/19/2020 07:10:40 PM - ERROR - error message 
+05/19/2020 07:10:40 PM - CRITICAL - critical message 
+05/19/2020 07:11:19 PM - WARNING - warning message 
+05/19/2020 07:11:19 PM - ERROR - error message 
+05/19/2020 07:11:19 PM - CRITICAL - critical message 
