@@ -5,6 +5,9 @@
 # Converting Strings to byte objects is termed as encoding
 # This is necessary so that the text can be stored on disk using mapping using ASCII or UTF-8 encoding techniques
 
+
+# Note : UTF-8 is the default encoding in python3
+
 # string object
 strobj = 'Geeksforgeeks'
 byteobj = b'Geeksforgeeks'
