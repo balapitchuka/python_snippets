@@ -9,6 +9,9 @@
 
 * pytest \<filename> -v
   - executes tests with in file <filename>
+  
+* pytest -p no:warnings
+  - supresses warnings displayed on screen if any
 
 * pytest -k great -v
   - execute tests with test names containing substring 'great'
