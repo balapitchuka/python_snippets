@@ -1,13 +1,13 @@
 # pytest commands
 
-* pytest
+* pytest (or) pytest .
   - run all the tests in directory and in subdirectories
 
 * pytest -v 
   - increases verbosity in test messages
 
 
-* pytest <filename> -v
+* pytest \<filename> -v
   - executes tests with in file <filename>
 
 * pytest -k great -v
