@@ -11,7 +11,7 @@
 
 ## Libraries
 
-##### dateparser
+##### date, time
 - [dateparser](https://dateparser.readthedocs.io/en/latest/)
   - parse localized dates in almost any string formats commonly found
 
