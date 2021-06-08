@@ -7,3 +7,12 @@
 - [Awesome Python](https://github.com/vinta/awesome-python#readme)
 - [Awesome Asyncio](https://github.com/timofurrer/awesome-asyncio#readme)
 - [Awesome Datascience](https://github.com/krzjoa/awesome-python-data-science#readme)
+
+
+## Libraries
+
+##### dateparser
+- [dateparser](https://dateparser.readthedocs.io/en/latest/)
+  - parse localized dates in almost any string formats commonly found
+
+
