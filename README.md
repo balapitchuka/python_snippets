@@ -15,5 +15,6 @@
 - [dateparser](https://dateparser.readthedocs.io/en/latest/)
   - parse localized dates in almost any string formats commonly found
 - [dataclass]()
+  - Starting from version 3.7, Python has introduced dataclasses
 
 
