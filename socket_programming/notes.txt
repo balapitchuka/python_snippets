@@ -1,0 +1,25 @@
+Client: will send a request to Server like 2#+#5 or 43#-#10 data.
+Server: got a request and then immediately split by # character
+Server: recognition the basic operation between ## characters.
+Server: make basic operation and send the result to client.
+
+
+Server
+line1: import socket module
+line2: Creates a socket object. The arguments passed to socket() specify the address family and socket type. AF_INET is the Internet address family for IPv4. SOCK_STREAM is the socket type for TCP, the protocol that will be used to transport our messages in the network.
+line3: Bind request localhost and port. Localhost is a hostname. Port should be an integer from 1-65535. That is why 8089 we choosed.
+line4: become a server socket, maximum 5 connections
+line6: When a client connects, it returns a new socket object representing the connection and a tuple holding the address of the client. The tuple will contain (host, port) for IPv4 connections
+line7: recv() method reads whatever data the client sends and echoes it back using conn.sendall().
+line9: decode data using decode() method
+line10: split data using split() method by # character
+line[14-21]: Make basic Math operation and send the result to client using send() method
+
+
+Client
+line1: import socket module
+line2: Creates a socket object. The arguments passed to socket() specify the address family and socket type. AF_INET is the Internet address family for IPv4. SOCK_STREAM is the socket type for TCP, the protocol that will be used to transport our messages in the network.
+line3: Bind request localhost and port. Localhost is a hostname. Port should be an integer from 1-65535. That is why 8089 we choosed.
+line5: Get value from user like 2#+#45 or 10#-#5 or 10#/#5
+line6: Encode the value using encode() method and send the data to server using send() method. 
+line7: Get results What Server sent using recv() method.
