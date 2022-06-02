@@ -7,6 +7,7 @@
 - [Awesome Python](https://github.com/vinta/awesome-python#readme)
 - [Awesome Asyncio](https://github.com/timofurrer/awesome-asyncio#readme)
 - [Awesome Datascience](https://github.com/krzjoa/awesome-python-data-science#readme)
+- [Decimals in python, 0.1 problem](https://medium.com/geekculture/decimals-in-python-the-0-1-problem-97772ddf2e16)
 
 
 ### Libraries
